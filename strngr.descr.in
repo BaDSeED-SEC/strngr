@@ -1,0 +1,8 @@
+
+strngr is a rewrite of the research tool "Stringer" described in the following publication:
+
+"Stringer: Measuring the Importance of Static Data Comparisons to Detect Backdoors and Undocumented Functionality" by Sam L. Thomas, Tom Chothia and Flavio D. Garcia (University of Birmingham, UK).
+
+strngr provides an ordering of functions and the static data used in comparisons that influence their control-flow. This ordering is intended to serve as a starting point for manual analysis when attempting to locate backdoor-like and undocumented functionality triggered by comparison with hard-coded static data, e.g., hard-coded credentials.
+
+For further information regarding the implementation of strngr, please refer to the aforementioned publication and project homepage: https://invr.si/projects/badseed
